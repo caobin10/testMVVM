@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mvp.login"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:5:5-17:19
+12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+12-->[androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\wrapper\dists\gradle-6.7.1-all\caches\transforms-2\files-2.1\476e418bae6a1646436b14a2350f3166\core-1.1.0\AndroidManifest.xml:24:18-86
+13        android:debuggable="true"
+14        android:icon="@drawable/ic_launcher"
+14-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:6:9-45
+15        android:label="@string/app_name"
+15-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:7:9-41
+16        android:testOnly="true" >
+17        <activity
+17-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:8:9-15:20
+18            android:name="com.mvp.login.ui.activity.MyActivity"
+18-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:9:13-51
+19            android:label="@string/app_name" >
+19-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:10:13-45
+20            <intent-filter>
+20-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:11:13-14:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:12:17-69
+21-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:12:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:13:17-77
+23-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:13:27-74
+24            </intent-filter>
+25        </activity>
+26        <activity android:name="com.mvp.login.ui.activity.UserInfoActivity" />
+26-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:16:9-66
+26-->D:\Android2\loginMVP\app\src\main\AndroidManifest.xml:16:19-63
+27    </application>
+28
+29</manifest>
