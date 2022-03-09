@@ -1,4 +1,4 @@
-#Wed Mar 02 16:24:30 CST 2022
-base.0=D\:\\Android2\\loginMVP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Mar 09 16:41:42 CST 2022
+base.0=D\:\\Android2\\testMVVM\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
